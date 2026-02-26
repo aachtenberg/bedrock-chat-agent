@@ -1,0 +1,16 @@
+customer_id,name,email,region,signup_date,plan,monthly_spend
+C001,Acme Corp,contact@acme.com,North,2024-03-15,Enterprise,2500.00
+C002,TechStart Inc,hello@techstart.io,South,2024-05-22,Professional,750.00
+C003,Global Widgets,sales@globalwidgets.com,East,2024-01-08,Enterprise,3200.00
+C004,Local Shop,info@localshop.com,West,2024-07-30,Starter,150.00
+C005,MegaCorp,procurement@megacorp.com,North,2023-11-12,Enterprise,5500.00
+C006,Startup Labs,team@startuplabs.co,South,2024-09-05,Professional,890.00
+C007,City Services,admin@cityservices.gov,East,2024-02-18,Professional,1200.00
+C008,Family Store,owner@familystore.com,West,2024-06-01,Starter,200.00
+C009,Tech Giants,orders@techgiants.com,North,2023-08-25,Enterprise,4800.00
+C010,Corner Market,sales@cornermarket.com,South,2024-10-14,Starter,175.00
+C011,Innovation Hub,contact@innovationhub.io,East,2024-04-03,Professional,950.00
+C012,Regional Dist,info@regionaldist.com,West,2024-08-19,Enterprise,2100.00
+C013,Smart Solutions,hello@smartsolutions.ai,North,2024-01-29,Professional,1100.00
+C014,Quick Commerce,support@quickcommerce.com,South,2024-12-01,Enterprise,2800.00
+C015,Green Energy Co,sales@greenenergy.com,East,2023-10-07,Enterprise,3500.00
