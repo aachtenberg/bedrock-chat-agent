@@ -97,14 +97,9 @@ export class ChatAgentStack extends cdk.Stack {
     dataBucket.grantRead(queryFn);
 
     // ── Bedrock Agent ─────────────────────────────────────────────────
-    const inferenceProfile = bedrock.CrossRegionInferenceProfile.fromConfig({
-      geoRegion: bedrock.CrossRegionInferenceProfileRegion.US,
-      model: bedrock.BedrockFoundationModel.ANTHROPIC_CLAUDE_3_5_SONNET_V2_0,
-    });
-
     const agent = new bedrock.Agent(this, "ChatAgent", {
       agentName: "bedrock-data-agent",
-      foundationModel: inferenceProfile,
+      foundationModel: bedrock.BedrockFoundationModel.AMAZON_NOVA_PRO_V1,
       instruction:
         "You are a data analyst assistant with access to indexed CSV data " +
         `from the GitHub repository ${props.githubRepo}. ` +

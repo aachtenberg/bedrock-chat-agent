@@ -34,11 +34,17 @@
     }
 
     .status {
-      margin-left: auto;
       font-size: 0.75rem;
       padding: 0.25rem 0.5rem;
       border-radius: 4px;
       background: #3d5a80;
+    }
+
+    .header-right {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
     }
 
     .status.connected { background: #2e7d32; }
@@ -193,9 +199,6 @@
     }
 
     .new-session-btn {
-      position: absolute;
-      right: 1rem;
-      top: 0.75rem;
       background: transparent;
       border: 1px solid rgba(255,255,255,0.3);
       color: white;
@@ -208,10 +211,6 @@
     .new-session-btn:hover {
       background: rgba(255,255,255,0.1);
     }
-
-    header {
-      position: relative;
-    }
   </style>
 </head>
 <body>
@@ -220,8 +219,10 @@
       <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
     </svg>
     <h1>Data Agent</h1>
-    <span id="status" class="status">Ready</span>
-    <button class="new-session-btn" onclick="newSession()">New Session</button>
+    <div class="header-right">
+      <span id="status" class="status">Ready</span>
+      <button class="new-session-btn" onclick="newSession()">New Session</button>
+    </div>
   </header>
 
   <div id="chat-container">
