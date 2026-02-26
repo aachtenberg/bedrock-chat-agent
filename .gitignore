@@ -1,0 +1,7 @@
+node_modules/
+dist/
+cdk.out/
+*.js
+*.d.ts
+*.d.ts.map
+!jest.config.js
