@@ -81,7 +81,7 @@ Example queries to try:
 
 ## Infrastructure
 
-- **Bedrock Agent:** Claude 3.5 Sonnet v2 with data analyst instructions
+- **Bedrock Agent:** Amazon Nova Pro with data analyst instructions
 - **Sync Lambda:** Downloads repo weekly (Sunday 02:00 UTC), indexes CSVs to DuckDB
 - **Query Lambda:** Executes agent tool calls against DuckDB + S3
 - **Chat API:** HTTP API Gateway → Lambda for web UI
